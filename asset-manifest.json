@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/27.04-react-cv-hw/static/css/main.d68783a6.css",
+    "main.js": "/27.04-react-cv-hw/static/js/main.f676b242.js",
+    "static/media/realAvatar.png": "/27.04-react-cv-hw/static/media/realAvatar.59e91b0d3cb34ed32544.png",
+    "index.html": "/27.04-react-cv-hw/index.html",
+    "main.d68783a6.css.map": "/27.04-react-cv-hw/static/css/main.d68783a6.css.map",
+    "main.f676b242.js.map": "/27.04-react-cv-hw/static/js/main.f676b242.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d68783a6.css",
+    "static/js/main.f676b242.js"
+  ]
+}

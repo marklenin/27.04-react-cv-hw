@@ -1,0 +1,136 @@
+.body {
+  background-color: #9e8c6c37;
+  height: 91vh;
+}
+
+.aboutme {
+  /* width: 65%; */
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+/* ! start aboutme  */
+.aboutme {
+  display: flex;
+  /* margin: 100px 0; */
+  gap: 3%;
+  justify-content: space-between;
+  position: relative;
+}
+
+.about-word {
+  position: absolute;
+  font-size: 150px;
+  color: rgba(128, 128, 128, 0.123);
+  bottom: 0;
+  left: -10%;
+}
+.aboutme-left {
+  /* border: 1px solid black; */
+  box-shadow: 4px 4px 5px 5px rgba(34, 60, 80, 0.2);
+  padding: 30px;
+  font-size: 1.2vw;
+  min-width: 400px;
+  width: 70%;
+}
+
+.aboutme-right {
+  /* border: 1px solid black; */
+  box-shadow: 4px 4px 5px 5px rgba(34, 60, 80, 0.2);
+  padding: 30px;
+  min-width: 200px;
+  width: 30%;
+}
+
+.aboutme-right__circle {
+  background: url(https://i.pinimg.com/564x/5d/82/af/5d82afebae0e8e8e8e21b0a48e418c4b.jpg);
+  background-size: cover;
+  width: 15vw;
+  height: 15vw;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 0 auto 5%;
+}
+.icon {
+  position: relative;
+  margin: 20px 0;
+  font-size: 2.5vw;
+  color: #101010;
+  font-size: 60px;
+}
+
+.aboutme-left .icon::after {
+  content: "";
+  height: 1px;
+  width: 50px;
+  background-color: black;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+
+.aboutme-left h3,
+.aboutme-left h4 {
+  margin: 30px 0;
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.aboutme-left h3 {
+  font-family: "Lato", sans-serif;
+  margin: 20px 0;
+  color: #101010;
+  font-size: 5vw;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  color: #101010;
+  font-weight: 500;
+}
+
+.aboutme-left p {
+  font-family: "Roboto Mono", sans-serif;
+
+  font-size: 1.6vw;
+  margin: 2.5% 0;
+  line-height: 1.42857143;
+  color: #444;
+}
+
+#marginp {
+  margin-bottom: 5%;
+}
+
+.aboutme-right {
+  font-family: "Roboto Mono", sans-serif;
+
+  font-size: 2vw;
+  margin: 2.5% 0;
+  line-height: 1.42857143;
+  color: #444;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aboutme-right__links {
+  font-size: 40px;
+  bottom: 5%;
+  display: flex;
+}
+.aboutme-right__links i {
+  margin-right: 10px;
+}
+/* ? end  aboutme */
+
+
